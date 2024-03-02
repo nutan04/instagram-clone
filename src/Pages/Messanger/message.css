@@ -1,0 +1,21 @@
+.dropdown{
+    height: 80px;
+    border-bottom: 1px solid #dee2e6;
+    /* display: flex; */
+    /* text-align: center; */
+    padding: 20px 45px;
+    margin-bottom: 20px;
+    width:100%;
+    margin: 0px;
+    /* padding: 0px; */
+}
+.css-i4bv87-MuiSvgIcon-root{
+    font-size: 30px !important
+
+}
+select{
+    border: none !important;
+}
+.messageblock{
+    text-align: center;
+}

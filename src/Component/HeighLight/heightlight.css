@@ -1,0 +1,63 @@
+.profilebox{
+     /* border: 1px solid red; */
+    height: 80px;
+    width: 70px;
+    margin-top: 6px;
+}
+.borderprofile {
+    border: 3px solid #d36432;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    margin: 6px 11px;
+
+}
+.image_profile {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    margin: 3px;
+}
+.profile_name{
+    font-weight: 600;
+    font-size: 16px;
+    padding: 22px 2px;
+}
+.expanddot{
+    margin-top: -63px;
+    margin-right: 15px;
+}
+.storyImg{
+    margin-top: 10px;
+    width: 100%;
+   
+}
+.savepost{
+    margin-top: -50px;
+    margin-right: 10px;
+    margin-bottom: 1rem;
+}
+.commentedarea{
+    border-bottom: 1px solid #dee2e6;
+}
+.post{
+    padding: 22px 10px;
+}
+
+input[type="text"]::placeholder {
+   text-align: center;
+   margin-left: 10px;
+    font-size: 14px;
+ 
+  }
+
+  .postbtn{
+    margin-top: -51px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+  }
+
+  input{
+    border: none;
+    margin-top: -10px;
+  }
