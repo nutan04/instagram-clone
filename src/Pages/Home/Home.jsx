@@ -25,7 +25,7 @@ function Home() {
           <div className=" col-lg-8 col-md-8 col-sm-12" >
             <div className="storybox d-flex">
               <StoryComponent />
-              <StoryComponent />
+            
             </div>
             <div className="heighlighbox">
               <HeighlightComponent />
