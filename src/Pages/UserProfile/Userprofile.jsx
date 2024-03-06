@@ -14,8 +14,7 @@ function Userprofile() {
       <div className="container" style={{ borderBottom: "1px solid #dee2ef" }}>
         <div className="madeus d-flex mb-2">
           <MadeusComponent />
-          <MadeusComponent />
-          <MadeusComponent />
+         
 
         </div>
       </div>

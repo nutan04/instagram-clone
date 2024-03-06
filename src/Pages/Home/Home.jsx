@@ -50,9 +50,7 @@ function Home() {
               <a href="http://" className=' text-dark' style={{ textDecoration: "none", }} >See All</a>
             </div>
             <SuggestionComponent />
-            <SuggestionComponent />
-            <SuggestionComponent />
-            <SuggestionComponent />
+           
 
           </div>
         </div>

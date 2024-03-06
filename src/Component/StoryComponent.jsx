@@ -7,7 +7,7 @@ function StoryComponent() {
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        console.log('Fetching data...');
+
         const fetchData = async () => {
             try {
                 const response = await fetch('http://localhost:8081/get-story');
@@ -15,7 +15,6 @@ function StoryComponent() {
                     throw new Error('Failed to fetch data');
                 }
                 const jsonData = await response.json();
-                console.log('Data fetched:', jsonData.data);
                 setData(jsonData.data);
                 setLoading(false);
             } catch (error) {
